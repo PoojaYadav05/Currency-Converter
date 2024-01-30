@@ -1,0 +1,201 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+  }
+  
+  form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+  }
+  
+  .msg {
+    margin: 2rem 0 2rem 0;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+  } */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #292c33; /* Dark background color */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    background-color: #1f1f1f; /* Dark container background */
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 60vh;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    margin: 20px; /* Added margin for spacing */
+  }
+  
+  .container:hover {
+    background-color: #252525; /* Slightly darker background on hover */
+  }
+  
+  h2 {
+    color: #ff7e67; /* Coral heading color */
+  }
+  
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  form select,
+  button,
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem; /* Added margin for spacing */
+    background-color: hsl(346, 69%, 45%); /* Facebook Blue input background */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  form select:hover,
+  button:hover,
+  input:hover {
+    background-color: #344e86; /* Slightly darker blue on hover */
+  }
+  
+  form input {
+    border: 1px solid #ff7e67; /* Coral border for input */
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #ffcc29; /* Sunflower color for icon */
+  }
+  
+  .select-container img {
+    max-width: 2rem;
+    border-radius: 50%; /* Rounded image corners */
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ffcc29; /* Sunflower border for container */
+  }
+  
+  .select-container select {
+    font-size: 1rem;
+    width: auto;
+    color: #ffcc29; /* Sunflower color for select text */
+  }
+  
+  .msg {
+    margin: 2rem 0 2rem 0;
+    text-align: center; /* Center align the message */
+    color: #f27121; /* Carrot color for the message */
+    font-weight: bold;
+  }
+  
+  form button {
+    height: 3rem;
+    background-color: #d9534f; /* Alizarin button background */
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  form button:hover {
+    background-color: #c9302c; /* Darker alizarin on hover */
+  }
+  
